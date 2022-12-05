@@ -1,5 +1,9 @@
+from figures import *
+
 #Define outcome
 def outcome(p2figure, p1figure):
+    winvalue = 6
+    drawvalue = 3
     #Draw
     if p1figure.name == p2figure.name:
         return p1figure.value + drawvalue
@@ -18,6 +22,7 @@ def outcome(p2figure, p1figure):
     if p1figure.name == "Rock" and p2figure.name == "Paper":
         return p1figure.value
 
+#Returns a figure that wins against the given figure
 def createWinnerFigure(figure):
     if figure.name == "Rock":
         return Paper()
@@ -26,6 +31,7 @@ def createWinnerFigure(figure):
     if figure.name == "Scissors":
         return Rock()
 
+#Returns a figure that draws against the given figure
 def createDrawFigure(figure):
     if figure.name == "Rock":
         return Rock()
@@ -34,6 +40,7 @@ def createDrawFigure(figure):
     if figure.name == "Scissors":
         return Scissors()
 
+#Returns a figure that loses against the given figure
 def createLoserFigure(figure):
     if figure.name == "Rock":
         return Scissors()
