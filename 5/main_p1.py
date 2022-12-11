@@ -2,7 +2,7 @@
 FILENAME = "5/example.txt"
 lines = open(FILENAME, "r").read().splitlines()
 print("--- Day 5: Supply Stacks ---")
-print("Crane Game - Part 2")
+print("Crane Game - Part 1")
 
 commands = []
 pillars = []

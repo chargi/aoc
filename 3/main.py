@@ -27,7 +27,7 @@ def part1(rucksack):
                 break
     return score
 
-#not beautiful but gets the job done
+#find the one exact item (character) that is common between the three elves and add up priority of the item
 def part2(rucksack):
     score = 0
     for i in range(0, len(rucksack), 3):
