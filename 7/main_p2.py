@@ -64,4 +64,4 @@ neededSpace = TARGET-freeSpace
 overLimit.clear()
 getDirSizeAndWriteToGlobals(root,neededSpace)
 overLimit.sort()
-print(overLimit[0])
+print(max(overLimit))
