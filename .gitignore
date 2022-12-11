@@ -1,5 +1,6 @@
 #AoC custom
 input*.txt
+zzTemplate/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

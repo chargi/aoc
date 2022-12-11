@@ -1,5 +1,5 @@
 #Globals
-FILENAME = "7/input1.txt"
+FILENAME = "7/example.txt"
 lines = open(FILENAME, "r").read().splitlines()
 root: dict = dict()
 underLimit = list()
